@@ -59,11 +59,9 @@ TEST(date, datetime_getdiff2)
 }
 TEST(calc, delta)
 {
-	EXPECT_DOUBLE_EQ(0.15915494319051504, calcDelta());
 	EXPECT_DOUBLE_EQ(0.15915963711631775, calcDelta());
 }
 TEST(calc, pool_cost)
 {
-	EXPECT_DOUBLE_EQ(72256.631032570003, calcCost());
 	EXPECT_DOUBLE_EQ(72254.5, calcCost());
 }
